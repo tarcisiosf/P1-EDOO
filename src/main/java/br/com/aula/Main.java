@@ -14,6 +14,11 @@ public class Main {
         hospital.cadastrarPaciente("Tiago Felipe Pacheco dos Santos", Hospital.Setor.RADIOLOGIA);
         hospital.cadastrarPaciente("Tarcísio Antônio dos Santos", Hospital.Setor.URGENCIA);
         hospital.cadastrarPaciente("Nicole Santos", Hospital.Setor.ALTA);
+        hospital.cadastrarPaciente("Thalles Bruno", Hospital.Setor.ALTA);
+        hospital.cadastrarPaciente("Pedro Willian", Hospital.Setor.URGENCIA);
+        hospital.cadastrarPaciente("Eliane Pelles", Hospital.Setor.RADIOLOGIA);
+        hospital.cadastrarPaciente("Maria Fernanda", Hospital.Setor.RADIOLOGIA);
+        hospital.cadastrarPaciente("Marcelo Pereira", Hospital.Setor.RADIOLOGIA);
 
         hospital.exibirEstadoAtual();
 
